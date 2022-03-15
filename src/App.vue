@@ -30,12 +30,12 @@
             </button>
           </div>
         </div>
-        <ul class="list-group list-group-flush">
+        <ol class="list-group list-group-flush list-group-numbered">
           <h2>Tareas</h2>
           <li class="list-group-item my-2" v-for="(li, i) in lis" :key="i">
             {{ li }}
           </li>
-        </ul>
+        </ol>
       </div>
     </div>
   </div>
